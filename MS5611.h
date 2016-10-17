@@ -52,6 +52,11 @@ typedef struct
 
 int MS5611_Cmd(uint8_t *Data, _MS5611 *Device);
 int MS5611_PROM(_MS5611 *Device);
+//void MS5611_Rst(_MS5611 *Device);
 //void MS5611_Cfg(_MS5611 *Device);
+//void MS5611_StartConv(_MS5611 *Device);
+//void MS5611_ReadADC(_MS5611 *Device);
+//int32_t MS5611_CalcTemp(D2, _MS5611 *Device);
+//int32_t MS5611_CalcPres(D1, Temp, _MS5611 *Device);
 
 #endif /* MS5611_H_ */
